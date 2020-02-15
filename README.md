@@ -1,4 +1,4 @@
-# Laravel WD My CLoud Home API Package
+# Laravel WD My Cloud Home API Package
 
 ## Installation
 
