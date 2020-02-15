@@ -1,0 +1,19 @@
+{
+    "name": "stevenhardy-digital/laravel-wd-my-cloud-api",
+    "description": "A laravel wrapper for the WD My Cloud Home API. With the ability to check your latest files and store them in your website from your My Cloud device.",
+    "homepage": "https://github.com/stevenhardy-digital/laravel-wd-my-cloud-api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Steven Hardy Digital",
+            "email": "steven@stevenhardy.digital"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^6.0"
+    }
+}
