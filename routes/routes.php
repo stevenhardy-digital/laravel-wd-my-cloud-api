@@ -2,5 +2,7 @@
 
 
 Route::group(['middleware' => 'web'], function () {
-    Route::get('auth', 'AuthController@auth');
+    Route::get('login', ['as' => 'login', 'uses' => 'AuthController@redirectToProvider']);
+    Route::get('login_callback', ['as' => 'login', 'uses' => 'AuthController@handleProviderCallback']);
+
 });

@@ -1,6 +1,6 @@
 <?php
 
-namespace StevenHardyDigital\LaravelWdMyCloudApi\Http\Controllers;
+namespace StevenHardyDigital\LaravelWdMyCloudApi\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
