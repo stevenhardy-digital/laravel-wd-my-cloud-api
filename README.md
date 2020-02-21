@@ -16,13 +16,4 @@ MYCLOUD_CLIENT_ID=
 MYCLOUD_CLIENT_SECRET=
 ```
 
-3. Make a request to the below URL using your client ID WDC have provided:
-```
-https://<service.auth0.url>/authorize?
-scope=openid%20offline_access%20nas_read_write%20nas_read_only%20user_read%20device_read
-&response_type=code&connection=Username-Password-Authentication&sso=false
-&audience=mycloud.com&state=my-custom-state&protocol=oauth2
-&client_id=<client_id>&redirect_uri=http%3A%2F%2Flocalhost
-```
-
-Return `http://localhost/?code=&state=`
+3. Navigate to your internet browser and go to <your-url>/mycloud/login
